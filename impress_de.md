@@ -1,9 +1,9 @@
 ---
-layout: page
-title: Impressum
-permalink: /de/impressum/
 key: impress
 lang: de
+layout: page
+permalink: /de/impressum/
+title: Impressum
 ---
 
 Rainer Jung  
