@@ -28,7 +28,7 @@
         {% assign alternative_langs = site.pages | where:"key", page.key %}
         {% for my_lang in alternative_langs %}
           {% if my_lang.lang != page.lang %}
-            <a class="page-link" href="{{ my_lang.url | prepend: site.baseurl }}">{{ my_lang.lang }}</a>
+            <a class="lang-link" lang="{{my_lang.lang}}" title="{{my_lang.title}}" href="{{ my_lang.url | prepend: site.baseurl }}">{{ my_lang.lang }}</a>
           {% endif %}
         {% endfor %}
       </div>
